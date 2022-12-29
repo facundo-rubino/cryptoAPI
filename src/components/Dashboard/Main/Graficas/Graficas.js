@@ -28,7 +28,6 @@ ChartJS.register(
 
 
 
-
 const Graficas = () => {
 
     const arrayMonedas = useSelector((state) => state.monedas.monedas);
@@ -45,8 +44,6 @@ const Graficas = () => {
     const ventasTotales = [];
     const labelsGraficoLinea = [];
     const cantLabelsAbajo = [];
-
-
 
     useEffect(() => {
 
@@ -115,7 +112,6 @@ const Graficas = () => {
 
 
     }
-    //Santi, se que en varios lugares, como en este sería ideal usar .find, entre otros métodos, pero no los he logrado dominar
 
 
 
