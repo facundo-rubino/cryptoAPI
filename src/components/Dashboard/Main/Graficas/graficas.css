@@ -1,0 +1,15 @@
+.Graficas{
+    margin-top: 20vh
+}
+
+.graficoLinea {
+    margin-top: 2vh;
+}
+
+
+.graficoLinea, .graficoBarras {
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    padding: 20px
+
+}

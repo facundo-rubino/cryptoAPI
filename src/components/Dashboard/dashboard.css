@@ -1,0 +1,93 @@
+.navPrinci {
+	display: border;
+	width: 100%;
+	top: 0;
+	left: 20vw;
+	height: 5vh;
+	position: absolute;
+	margin: auto;
+}
+
+.navPrinci h2 {
+	position: absolute;
+	left: 3vw;
+	top: 1vh;
+	background-color: #F87060;
+	color: white;
+	padding: 20px;
+	border-radius: 10px;
+}
+.navPrinci a{
+	position: absolute;
+	left: 70vw;
+	top: 1.5vh;
+}
+.navPrinci a:hover{
+	cursor: pointer;
+}
+  #cajaImg{
+	display: block;
+	margin-bottom: 5vh;
+  }
+  #cajaImg img{
+	margin: 0 auto;
+  }
+  .sidenav {
+	height: 100%;
+	width: 20vw;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: #1D4072;
+	overflow-x: hidden;
+	padding-top: 20px;
+	margin: auto;
+	display: block;
+  }
+  
+  .sidenav a {
+	padding: 2.5vh 1vh 6vh 3vh;
+	text-decoration: none;
+	font-size: 25px;
+	color: #818181;
+	display: block;
+	height: 10vh;
+	
+  }
+  
+  .sidenav a:hover {
+	color: #F87060;
+	border-left: 8px solid #F87060;
+  }
+
+  .active{
+	color: #F87060;
+	border-left: 8px solid #F87060;
+	background-color: #f6f5f7;
+  }
+
+  .sidenav img {
+	display: flex;
+	justify-content: center;
+}
+
+  
+  .main {
+	margin-left: 22vw; 
+	font-size: 28px; 
+	padding: 0px 10px;
+  }
+  .main h2 {
+	margin-top: 3vh;
+  }
+  
+  #containerTransacciones{
+	margin-top: 15vh !important;
+	margin-left: 10vh;
+  }
+
+  @media screen and (max-height: 450px) {
+	.sidenav {padding-top: 15px;}
+	.sidenav a {font-size: 18px;}
+  }
